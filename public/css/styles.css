@@ -1,0 +1,91 @@
+body {
+	font-family: 'Muli', sans-serif;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.header-logo {
+	max-width: 10%;
+	max-height: 10%;
+}
+
+.offer {
+	text-align: center;
+	background-image: url('../images/hero.jpg');
+	background-size: cover;
+	padding: 200px;
+	color: #fff;
+}
+
+.offer-button {
+	border: 0;
+	line-height: 2.5;
+	text-align: center;
+	padding: 0 50px;
+	color: #fff;
+	background-color: #f0c55b;
+	border-radius: 20px;
+}
+
+.perks-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.perk-col {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.perk-image {
+	max-width: 50%;
+	max-height: 50%;
+	justify-content: center;
+}
+
+.perk-title {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.perk-paragraph {
+	opacity: 0.7;
+	text-align: center;
+}
+
+.feed-row {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	margin: 5%;
+}
+
+.feed-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.feed-header {
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.feed-paragraph {
+	opacity: 0.7;
+}
+
+.feed-image {
+	max-width: 50%;
+	max-height: 50%;
+	padding-right: 20px;
+	padding-left: 5px;
+}
