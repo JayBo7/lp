@@ -14,3 +14,21 @@ Please view the `fuzzy_landing_page.jpg` image. You will be tasked with building
 
 #### Important Note
 You will see a section in the landing page preview image which contains social ratings from Facebook and Yelp. This component can be pulled from the `social.html` file.
+
+#### Install Dependencies
+```sh
+npm install
+```
+
+#### Usage
+> From the lp directory:
+```sh
+npm run build
+npm start
+```
+
+#### Development
+> For development:
+```sh
+npm run build-dev
+```
