@@ -1,0 +1,36 @@
+{
+  "name": "lp",
+  "version": "1.0.0",
+  "description": "Web based interview project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "start-dev": "nodemon server/index.js",
+    "build": "webpack --config webpack.config.js",
+    "build-dev": "webpack --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayBo7/lp.git"
+  },
+  "author": "JayBo7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayBo7/lp/issues"
+  },
+  "homepage": "https://github.com/JayBo7/lp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
